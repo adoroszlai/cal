@@ -1,4 +1,4 @@
-var year = 2014;
+var year = 2015;
 
 var month_names = [ 'január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december', ];
 var day_names = [ 'Hé', 'Ke', 'Sz', 'Cs', 'Pé', 'Sz', 'Va', ];
