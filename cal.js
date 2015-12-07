@@ -21,8 +21,10 @@ function max_length(arr) {
 
 function to_map(arr) {
 	var map = {};
-	for (var i = 0; i < arr.length; i++) {
-		map[arr[i]] = '';
+	if (arr) {
+		for (var i = 0; i < arr.length; i++) {
+			map[arr[i]] = '';
+		}
 	}
 	return map;
 }
