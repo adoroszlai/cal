@@ -16,10 +16,6 @@
 	padding: 0px 2px 0px 2px;
 }
 
-.last_cell {
-	border-right: 1px solid black;
-}
-
 .cell {
 	vertical-align: center;
 	text-align: center;
@@ -64,7 +60,6 @@
 }
 
 .usholiday_text {
-	#border-top: 1px solid black;
 	color: white;
 }
 
@@ -90,9 +85,4 @@ th, .month_name, .workday_count {
 
 .dst_change_us {
 	padding: 2px 2px 2px 0px;
-}
-
-#revision {
-	color: gray;
-	font-size: 8pt;
 }

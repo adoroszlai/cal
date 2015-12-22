@@ -40,8 +40,6 @@ function get_dst_arrow(day_id, year, country) {
 }
 
 $(document).ready(function() {
-	var header_len = 0;
-
 	var holidays = {};
 	for (var key in holidays_raw) {
 		holidays[key] = to_map(holidays_raw[key][year]);
