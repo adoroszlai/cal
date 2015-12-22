@@ -10,89 +10,42 @@
 	border-right: 1px solid black;
 }
 
-.month_name {
+th, .month_name {
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
-	padding: 0px 2px 0px 2px;
-}
-
-.last_cell {
-	border-right: 1px solid black;
+	padding: 1px 2px 0px 2px;
+	font-weight: normal;
+	background: lightblue;
 }
 
 .cell {
-	vertical-align: center;
-	text-align: center;
+	vertical-align: top;
+	text-align: left;
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	width: 30px;
-	padding: 2px 5px 1px 5px;
+	padding: 1px 0px 11px 1px;
+	font-size: 7px;
 }
 
 .weekday {
 	background: #dddddd;
 }
 
-.even_week {
-	background: #bbbbbb;
-}
-
 .weekend {
 	background: orange;
 }
 
-.hu_swap_work {
+.swap_work {
 	background: #999999;
 }
 
-.hu_swap_holi {
+.swap_holi {
 	background: darkorange;
 	color: white;
 }
 
-.huholiday_cell {
+.holiday_cell {
 	background: red;
 	color: white;
-}
-
-.usholiday_cell {
-	background: purple;
-}
-
-.eeholiday_text {
-	border-bottom: 1px solid black;
-}
-
-.usholiday_text {
-	#border-top: 1px solid black;
-	color: white;
-}
-
-.huholiday_cell.usholiday_cell {
-	background: lightgreen;
-}
-
-.huholiday_text.usholiday_text {
-	color: black;
-}
-
-th, .month_name, .workday_count {
-	background: lightblue;
-}
-
-.option_friday {
-	border-right: 1px solid black;
-}
-
-.dst_change_hu {
-	padding: 2px 0px 2px 2px;
-}
-
-.dst_change_us {
-	padding: 2px 2px 2px 0px;
-}
-
-#revision {
-	color: gray;
-	font-size: 8pt;
 }

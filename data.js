@@ -1,19 +1,21 @@
-var hu_day_swaps_raw = {
-	'2013': {
-		'work': [ '8/24', '12/7', '12/21', ],
-		'holi': [ '8/19', '12/24', '12/27', ],
-	},
-	'2014': {
-		'work': [ '5/10', '10/18', '12/13', ],
-		'holi': [ '5/2', '10/24', '12/24', ],
-	},
-	'2015': {
-		'work': [ '1/10', '8/8', '12/12', ],
-		'holi': [ '1/2', '8/21', '12/24', ],
-	},
-	'2016': {
-		'work': [ '3/5', '10/15', ],
-		'holi': [ '3/14', '10/31', ],
+var day_swaps_raw = {
+	'hu': {
+		'2013': {
+			'work': [ '8/24', '12/7', '12/21', ],
+			'holi': [ '8/19', '12/24', '12/27', ],
+		},
+		'2014': {
+			'work': [ '5/10', '10/18', '12/13', ],
+			'holi': [ '5/2', '10/24', '12/24', ],
+		},
+		'2015': {
+			'work': [ '1/10', '8/8', '12/12', ],
+			'holi': [ '1/2', '8/21', '12/24', ],
+		},
+		'2016': {
+			'work': [ '3/5', '10/15', ],
+			'holi': [ '3/14', '10/31', ],
+		},
 	},
 };
 var holidays_raw = {
@@ -60,4 +62,12 @@ var dst_changes = {
 		'hu': { 'start': '3/27', 'end': '10/30' },
 		'us': { 'start': '3/13', 'end': '11/6' },
 	},
+};
+var month_names = {
+	'hu': [ 'január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december', ],
+	'us': [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', ],
+};
+var day_names = {
+	'hu': [ 'Hé', 'Ke', 'Sz', 'Cs', 'Pé', 'Sz', 'Va', ],
+	'us': [ 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su', ],
 };
