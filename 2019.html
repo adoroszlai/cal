@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>2019</title>
+		<link rel="stylesheet" href="cal.css" media="all"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="data.js"></script>
+		<script>var year = 2019;</script>
+		<script src="cal.js"></script>
+	</head>
+	<body>
+		<table id="calendar" border="0" cellspacing="0" cellpadding="0"></table>
+		<div id="legend">
+			<p>
+				<li class="weekday" style="display: inline">weekday (odd week)</li>
+				<li class="even_week" style="display: inline">weekday (even week)</li>
+				<li class="weekend" style="display: inline">weekend</li>
+			</p>
+			<p>
+				<div class="huholiday_cell" style="display: inline"><li class="huholiday_text" style="display: inline">HU</li></div>
+				<div class="usholiday_cell" style="display: inline"><li class="usholiday_text" style="display: inline">US</li></div>
+				<div class="huholiday_cell usholiday_cell" style="display: inline"><li class="huholiday_text usholiday_text" style="display: inline">HU+US</li></div>
+				<div class="eeholiday_cell" style="display: inline"><li class="eeholiday_text" style="display: inline">EE</li></div>
+				holiday
+			</p>
+			<p>
+				<li class="hu_swap_work" style="display: inline">work</li> &lt;=&gt;
+				<li class="hu_swap_holi" style="display: inline">holiday</li> swap (HU)
+			</p>
+			<p>misc:
+				<ul>
+					<li style="display: inline" class="option_friday">option Fri</li>
+					<li>+1: HU&rarr; | &rarr;US</li>
+					<li>-1: HU&larr; | &larr;US</li>
+				</ul>
+			</p>
+		</div>
+	</body>
+</html>
