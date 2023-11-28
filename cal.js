@@ -1,5 +1,5 @@
-var month_names = [ 'január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december', ];
-var day_names = [ 'Hé', 'Ke', 'Sz', 'Cs', 'Pé', 'Sz', 'Va', ];
+var month_names = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', ];
+var day_names = [ 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su', ];
 
 function norm_day(day) {
 	if (day == 0) {
